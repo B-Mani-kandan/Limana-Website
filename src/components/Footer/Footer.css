@@ -1,0 +1,144 @@
+.footer {
+  background-color: #004449;
+  color: #fffef0;
+  overflow: hidden;
+  padding: 40px 30px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer-group {
+  width: 20%;
+  min-width: 200px;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  display: block;
+  text-transform: uppercase;
+  color: #bbb;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons .icon {
+  font-size: 30px;
+  color: #fffef0;
+  width: 32px;
+  height: 32px;
+}
+
+.developeLogo {
+  margin-top: 8%;
+  width: 190px;
+  height: 90px;
+}
+
+@media (max-width: 768px) {
+  .footer-sections {
+    flex-direction: column;
+  }
+
+  .footer-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.legalOuter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 15px;
+  background-color: #f4f4f4;
+}
+
+.legal {
+  font-size: 20px;
+  font-weight: bold;
+  color: #004449;
+}
+
+.legalLinkGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.legalLink {
+  color: #004449;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.legalLink:hover {
+  color: #fd9b3d;
+}
+
+.label {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.headings {
+  font-family: "Pacifico", serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #004449;
+}
+
+@media (max-width: 768px) {
+  .legal {
+    font-size: 18px;
+  }
+
+  .legalLink {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .legal {
+    font-size: 16px;
+  }
+
+  .legalLink {
+    font-size: 12px;
+  }
+}
+
+.Inv-Logo {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #0bff80;
+  font-weight: 400;
+}
+.Inv-Logo a {
+  text-decoration: none;
+  color: #0bff80;
+}

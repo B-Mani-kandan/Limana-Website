@@ -1,0 +1,107 @@
+.cust-head {
+  font-size: 32px;
+  font-weight: bold;
+  color: #004449;
+  text-align: center;
+  margin-top: 80px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.CustSays {
+  background-image: url("../../../assets/prefooter-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 1%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-swiper {
+  width: 90%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.testimonial-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-card {
+  display: flex;
+  background: #f1f2f2;
+  color: black;
+  border-radius: 10px;
+  align-items: center;
+  margin: 20px auto;
+  padding: 120px;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.testimonial-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border-right: 1px solid #004449;
+  text-align: center;
+}
+
+.client-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.testimonial-right {
+  width: 65%;
+  text-align: left;
+}
+
+.testimonial-rating span {
+  color: gold;
+  font-size: 20px;
+}
+
+.testimonial-text {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.CustSays p {
+  line-height: 1.6;
+}
+.client-name {
+  margin-top: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .testimonial-card {
+    width: 95%; /* Slightly wider for tablets */
+    padding: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  .testimonial-left,
+  .testimonial-right {
+    width: 100%;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+}

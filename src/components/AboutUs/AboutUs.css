@@ -1,0 +1,116 @@
+.About-us {
+  position: relative;
+}
+
+.about-container {
+  height: 116vh;
+  width: 100%;
+  padding-left: 88px;
+  margin-top: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  background-image: url("../../assets/portfolio-bg.jpg.webp");
+  background-size: cover;
+  position: relative;
+}
+
+.about-content {
+  margin-top: 10%;
+  width: 50%;
+}
+
+.about-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.about-content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.about-image-container {
+  margin-top: 7%;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.about-image img {
+  width: 100%;
+  border: 6px solid #fff;
+  max-width: 500px;
+  transform: rotate(5deg);
+  box-shadow: 0 0 20px rgba(29, 37, 45, 0.29);
+}
+
+.overlay-image {
+  position: absolute;
+  top: 82%;
+  left: 58%;
+  width: 35%;
+  height: auto;
+  transform: rotate(-10deg);
+  box-shadow: 0 0 20px rgba(29, 37, 45, 0.29);
+  border: 8px solid #fff;
+  z-index: 2;
+}
+
+.portfolio-curve {
+  position: absolute;
+  top: -2px;
+  z-index: 11;
+  width: 100%;
+}
+
+.portfolio-curve img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .about-content,
+  .about-image-container {
+    width: 100%;
+  }
+
+  .about-image-container {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-right-small-image {
+    width: 318px;
+    height: 318px;
+    margin-top: -148px;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio-right-small-image {
+    width: 265px;
+    height: 265px;
+    margin-top: -132px;
+  }
+}
+
+.object-fit {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
