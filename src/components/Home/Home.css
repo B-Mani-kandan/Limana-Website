@@ -1,6 +1,5 @@
 .contribute {
   margin-top: 7%;
-  /* width: calc(100vw - 20px); */
 }
 .contribute {
   text-align: left;
@@ -298,7 +297,7 @@
 .contribute .contribute__intro p {
   text-align: justify;
   font-size: 20px;
-  color: #555;
+  color: #718096;
   margin-bottom: 10px;
   line-height: 1.5;
 }

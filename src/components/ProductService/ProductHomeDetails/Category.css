@@ -1,0 +1,155 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Auto adjust column size */
+  gap: 1rem; /* Space between cards */
+  padding: 2rem;
+  justify-items: center; /* Center align the cards */
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+/* Card Body */
+.card-body {
+  background-color: #f9fafb;
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+  height: 370px;
+  /* max-width: 300px;  */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure elements are spaced evenly */
+}
+
+.card-body:hover {
+  box-shadow: 0 2px 10px rgba(39, 161, 112, 0.1);
+}
+
+/* Card Items */
+.card-item {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #4a5568;
+  margin-bottom: 1rem; /* Add space between title and description */
+}
+
+/* Card Description */
+.card-description {
+  font-size: 0.875rem;
+  color: #718096;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem; /* Space below the description */
+  max-width: 16rem;
+  height: 50px; /* Fixed height for description */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Prevents text from overflowing */
+}
+
+/* Card Image Container */
+.card-image-container {
+  flex-grow: 1; /* Allow image container to grow and fill available space */
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px; /* Fixed height for image */
+  object-fit: cover;
+  border-radius: 0.75rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.card-body:hover .card-image {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Footer */
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  flex-shrink: 0;
+}
+
+/* Link Button */
+.card-link {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: normal;
+  color: white;
+  background-color: #004449;
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.card-link:hover {
+  background-color: #4338ca;
+}
+
+/* Sign Up Button */
+.card-button {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border-radius: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+  background-color: #4a5568;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+  50% {
+    border-color: #39a170;
+  }
+  100% {
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.card-body {
+  background-color: #f9fafb;
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-body:hover {
+  box-shadow: 0 2px 10px rgba(39, 161, 112, 0.1);
+  animation: borderAnimation 2s infinite;
+}

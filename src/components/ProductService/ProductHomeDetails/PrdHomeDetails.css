@@ -1,0 +1,67 @@
+.prd-home-wrapper {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  background-color: white;
+}
+
+.prd-home-left {
+  margin-top: -8%;
+  flex: 1;
+  max-width: 45%;
+}
+
+.prd-home-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #004449;
+}
+
+.prd-home-description {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 1.2rem;
+  color: #4a5568;
+}
+
+.prd-home-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background-color: #004449;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.prd-home-button:hover {
+  background-color: #4338ca;
+}
+
+/* Right Side - Image Grid */
+.prd-home-right {
+  /* flex: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prd-home-image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.prd-home-image {
+  width: 170px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 10px;
+}

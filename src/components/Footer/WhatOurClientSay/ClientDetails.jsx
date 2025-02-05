@@ -70,10 +70,10 @@ const ClientDetails = () => {
             clickable: true, // Makes bullets clickable
           }}
           modules={[Pagination, Autoplay]} // Corrected usage
-          // autoplay={{
-          //   delay: 5000,
-          //   disableOnInteraction: false,
-          // }}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
           className="testimonial-swiper"
         >
           {testimonials.map((testimonial) => (

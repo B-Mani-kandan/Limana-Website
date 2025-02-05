@@ -1,0 +1,77 @@
+.feature-container {
+  background: white;
+  padding: 80px 20px;
+  margin-top: 5%;
+}
+
+.feature-content {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.feature-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+.feature-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #004449;
+  margin-top: 10px;
+}
+
+.feature-description {
+  font-size: 18px;
+  color: #718096;
+  margin-top: 20px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin: 40px auto 0;
+}
+
+.feature-card {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  position: relative;
+  padding-left: 75px;
+}
+
+.feature-icon {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  background: #004449;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.icon {
+  color: white;
+  width: 24px;
+  height: 24px;
+}
+
+.feature-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.feature-text {
+  font-size: 16px;
+  color: #718096;
+  margin-top: 8px;
+}
