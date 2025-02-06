@@ -1,12 +1,6 @@
 import React, { useEffect } from "react";
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-  CubeTransparentIcon,
-} from "@heroicons/react/20/solid";
+import { CubeTransparentIcon } from "@heroicons/react/20/solid";
 import "../ProductPages.css";
-
 import ESD from "../../../assets/PRODUCTSERVICE_HEAD/ESD.webp";
 import ESD_BUDS from "../../../assets/ESDCONSUMABLES/ESD_BUDS.webp";
 import ESD_DISPOSAL from "../../../assets/ESDCONSUMABLES/ESD_DISPOSAL.webp";
