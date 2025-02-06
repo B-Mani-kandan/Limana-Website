@@ -4,44 +4,47 @@ import LED from "../../../assets/CLEANING_SOLUTIONS/LED.webp";
 import DISPLAY from "../../../assets/CLEANING_SOLUTIONS/DISPLAY.webp";
 import PCB from "../../../assets/CLEANING_SOLUTIONS/PCB.webp";
 import SEMI_CONDUCTOR from "../../../assets/CLEANING_SOLUTIONS/SEMI_CONDUCTOR.webp";
-import LITHIUM from "../../../assets/CLEANING_SOLUTIONS/LITHIUM.webp";
+import LITHIUM from "../../../assets/CLEANING_SOLUTIONS/LITHIUM_ION.webp";
 import CAMERA_MODULE from "../../../assets/CLEANING_SOLUTIONS/CAMERA_MODULE.webp";
 
 const cardData = [
   {
     id: 1,
     title: "LED INDUSTRY",
-    description: "SMT Fixtures & Carriers ensure precise component handling.",
+    description:
+      "Specialized cleaning solutions enhance LED industry performance.",
     imageUrl: `${LED}`,
   },
   {
     id: 2,
     title: "DISPLAY INDUSTRY",
-    description: "FCT Fixtures ensure precise testing alignment.",
+    description: "Specialized cleaning solutions for the display industry.",
     imageUrl: `${DISPLAY}`,
   },
   {
     id: 3,
     title: "PCB INDUSTRY",
-    description: "Tester & Assembly Machines automate testing and assembly.",
+    description: "PCB cleaning solutions enhance performance and reliability.",
     imageUrl: `${PCB}`,
   },
   {
     id: 4,
     title: "SEMICONDUCTOR INDUSTRY",
-    description: "Machines streamline production and enhance efficiency.",
+    description:
+      "Semiconductor cleaning solutions ensure precision and reliability.",
     imageUrl: `${SEMI_CONDUCTOR}`,
   },
   {
     id: 5,
     title: "LITHIUM BATTERY INDUSTRY",
-    description: "Machines streamline production and enhance efficiency.",
+    description:
+      "Lithium battery cleaning solutions enhance safety and performance.",
     imageUrl: `${LITHIUM}`,
   },
   {
     id: 6,
     title: "CAMERA MODULE",
-    description: "Machines streamline production and enhance efficiency.",
+    description: " Is used for imaging and inspection in various applications.",
     imageUrl: `${CAMERA_MODULE}`,
   },
 ];

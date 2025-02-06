@@ -1,8 +1,12 @@
 import "../ProductPages.css";
 import { useEffect } from "react";
-import JIG from "../../../assets/JIG.webp";
-import Holder from "../../../assets/HolderFixture.webp";
-import Imitating from "../../../assets/Imitating.webp";
+import JIG from "../../../assets/SMTCARRIER/JIG.webp";
+import HOLDER_1 from "../../../assets/SMTCARRIER/HOLDER_1.webp";
+import HOLDER_2 from "../../../assets/SMTCARRIER/HOLDER_2.webp";
+import HOLDER_3 from "../../../assets/SMTCARRIER/HOLDER_3.webp";
+import IMITATING from "../../../assets/SMTCARRIER/IMITATING.webp";
+import MANUALFIXTURE from "../../../assets/SMTCARRIER/MANUALFIXTURE.webp";
+
 const Smt = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,8 +27,8 @@ const Smt = () => {
               </p>
             </div>
             <div className="card-image">
-              <img src={Holder} alt="Mobile friendly" />
-              <img src={Holder} alt="Mobile friendly" />
+              <img src={HOLDER_1} alt="Mobile friendly" />
+              <img src={HOLDER_2} alt="Mobile friendly" />
             </div>
           </div>
           <div className="card">
@@ -49,7 +53,7 @@ const Smt = () => {
               </p>
             </div>
             <div className="card-image">
-              <img src={Imitating} alt="Security" />
+              <img src={IMITATING} alt="Security" />
             </div>
           </div>
           <div className="card large">
@@ -62,10 +66,7 @@ const Smt = () => {
               </p>
             </div>
             <div className="card-image">
-              <img
-                src="https://tailwindui.com/plus/img/component-images/bento-03-performance.png"
-                alt="Powerful APIs"
-              />
+              <img src={MANUALFIXTURE} alt="MANUALFIXTURE" />
             </div>
           </div>
           <div className="card large">
@@ -78,10 +79,7 @@ const Smt = () => {
               </p>
             </div>
             <div className="card-image">
-              <img
-                src="https://tailwindui.com/plus/img/component-images/bento-03-performance.png"
-                alt="Powerful APIs"
-              />
+              <img src={HOLDER_3} alt="HOLDER" />
             </div>
           </div>
         </div>
