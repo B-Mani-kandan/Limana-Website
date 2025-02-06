@@ -71,104 +71,11 @@
   margin-top: 1rem;
 }
 
-/* Tester Assembly */
-
-.product-list-container {
-  background-color: white;
-  margin-top: 5%;
-}
-
-.product-list-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
-}
-
 .product-list-title {
   font-size: 2rem;
   font-weight: bold;
   color: #004449;
   text-align: left;
-}
-
-/* Grid Layout */
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 1.5rem;
-  margin-top: 2rem;
-}
-
-@media (min-width: 640px) {
-  .product-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .product-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-/* Product Item Styles */
-.product-item {
-  position: relative;
-  background-color: #f9fafb;
-  padding: 1rem;
-  border-radius: 0.375rem;
-  transition: transform 0.3s ease;
-}
-
-.product-item:hover {
-  transform: translateY(-5px);
-}
-
-/* Product Image */
-.product-image {
-  width: 100%;
-  height: auto;
-  border-radius: 0.375rem;
-  background-color: #e5e7eb;
-  object-fit: cover;
-  transition: opacity 0.3s ease;
-}
-
-.product-item:hover .product-image {
-  opacity: 0.75;
-}
-
-/* Product Info */
-.product-info {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.product-name {
-  font-size: 0.875rem;
-  color: #4b5563;
-}
-
-.product-name a {
-  text-decoration: none;
-}
-
-.product-color {
-  font-size: 0.875rem;
-  color: #6b7280;
-}
-
-.product-price {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #111827;
-}
-
-/* Accessibility helper class for hidden elements */
-.absolute-inset {
-  position: absolute;
-  inset: 0;
 }
 
 /* ESD */
@@ -285,4 +192,68 @@
     position: sticky;
     top: 1rem;
   }
+}
+
+/* cleaning Machine */
+
+.cleaningmach-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cleaningmach-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.cleaningmach-section.cleaningmach-reverse {
+  flex-direction: row-reverse;
+}
+
+.cleaningmach-content {
+  width: 50%;
+  padding: 20px;
+}
+
+.cleaningmach-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.cleaningmach-content p {
+  color: #555;
+  font-size: 16px;
+}
+
+.cleaningmach-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.cleaningmach-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ESD-description p {
+  margin-top: 1rem;
+  position: relative;
+  left: 6%;
+  font-size: 1rem;
+  text-align: justify;
+  color: #4b5563;
+}
+
+.mch-icon {
+  margin-top: 1%;
+  width: 20px;
+  height: 20px;
+  color: #004449;
 }

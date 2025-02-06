@@ -18,6 +18,7 @@ import ASM from "./components/ProductService/ProductPages/ASM";
 import Panasonic from "./components/ProductService/ProductPages/Panasonic";
 import AI from "./components/ProductService/ProductPages/AI";
 import CleaningSolution from "./components/ProductService/ProductPages/CleaningSolution";
+import CleaningMachines from "./components/ProductService/ProductPages/CleaningMachines";
 
 function App() {
   return (
@@ -51,6 +52,11 @@ function App() {
             exact
             path="/Cleaning-Solutions"
             element={<CleaningSolution />}
+          />
+          <Route
+            exact
+            path="/Cleaning-Machines"
+            element={<CleaningMachines />}
           />
         </Routes>
         <Footer />

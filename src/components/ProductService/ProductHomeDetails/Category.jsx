@@ -99,7 +99,7 @@ const cardData = [
     description:
       "Advanced machines for precise and effective electronic part cleaning.",
     imageUrl: `${cleaning1}`,
-    link: "https://twitter.com/mannupaaji",
+    link: "/Cleaning-Machines",
   },
 ];
 export function Category() {

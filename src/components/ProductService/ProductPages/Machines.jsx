@@ -1,81 +1,47 @@
 import React, { useEffect } from "react";
 import "../ProductPages.css";
-import MachinesCard from "./MachinesCard";
-
-const products = [
+import GKGSOLDER from "../../../assets/MACHINES/GKGSOLDER.webp";
+import GKGDISPENSER from "../../../assets/MACHINES/GKGDISPENSER.webp";
+import HGLASER from "../../../assets/MACHINES/HGLASER.webp";
+import HGLASERWELDING from "../../../assets/MACHINES/HGLASERWELDING.webp";
+import PCBROUTING from "../../../assets/MACHINES/PCBROUTING.webp";
+import BHS from "../../../assets/MACHINES/BHS.webp";
+const cardData = [
   {
     id: 1,
-    name: "EOL TESTER",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    color:
-      "An EOL (End-of-Line) Tester checks product functionality at the final production stage, identifying defects to ensure only fully functional items are shipped.",
+    title: "GKG SOLDER ",
+    description: "PASTE PRINTING",
+    imageUrl: `${GKGSOLDER}`,
   },
   {
     id: 2,
-    name: "ACTUATOR TESTER",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    color: "Black",
+    title: "GKG DISPENSER",
+    description: "DISPENSER MACHINE",
+    imageUrl: `${GKGDISPENSER}`,
   },
   {
     id: 3,
-    name: "STI STATION",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    color: "Black",
+    title: "HG LASER",
+    description: "LASER MACHINE",
+    imageUrl: `${HGLASER}`,
   },
   {
     id: 4,
-    name: "PCB CONNECTOR ASSY STATION",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    color: "Black",
+    title: "HG LASER WELDING",
+    description: "LASER WELDING",
+    imageUrl: `${HGLASERWELDING}`,
   },
   {
     id: 5,
-    name: "EOL TESTER",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    color:
-      "An EOL (End-of-Line) Tester checks product functionality at the final production stage, identifying defects to ensure only fully functional items are shipped.",
+    title: "PCB ROUTING ",
+    description: " AND V GROOVE CUTTING MACHINE",
+    imageUrl: `${PCBROUTING}`,
   },
   {
     id: 6,
-    name: "ACTUATOR TESTER",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    color: "Black",
-  },
-  {
-    id: 7,
-    name: "STI STATION",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    color: "Black",
-  },
-  {
-    id: 8,
-    name: "PCB CONNECTOR ASSY STATION",
-    href: "#",
-    imageSrc:
-      "https://tailwindui.com/plus/img/ecommerce-images/product-page-01-related-product-01.jpg",
-    imageAlt: "Front of men's Basic Tee in black.",
-    color: "Black",
+    title: "BOARD HANDLING SYSTEM",
+    description: "LOADER/UNLOADER, BUFFER/CONVEYOR,PCB CLEANER",
+    imageUrl: `${BHS}`,
   },
 ];
 
@@ -85,36 +51,31 @@ export default function Machines() {
   }, []);
   return (
     <>
-      <div className="product-list-container">
-        <div className="product-list-wrapper">
-          <h2 className="title">Product & Services</h2>
-          <h2 className="product-list-title">MACHINES</h2>
-
-          <div className="product-grid">
-            {products.map((product) => (
-              <div key={product.id} className="product-item">
-                <img
-                  alt={product.imageAlt}
-                  src={product.imageSrc}
-                  className="product-image"
-                />
-                <div className="product-info">
-                  <div>
-                    <h3 className="product-name">
-                      <a href={product.href}>
-                        <span aria-hidden="true" className="absolute-inset" />
-                        {product.name}
-                      </a>
-                    </h3>
-                    <p className="product-color">{product.color}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+      <div style={{ marginTop: "9%", paddingLeft: "2rem" }}>
+        <h2 className="title">Product & Services</h2>
+        <h2 className="product-list-title">FCT FIXTURES</h2>
       </div>
-      <MachinesCard />
+      <div className="Prd-cards-container">
+        {cardData.map((card) => (
+          <div key={card.id} className="Prd-card-container inter-var">
+            <div className="Prd-card-body">
+              <div className="Prd-card-item Prd-card-image-container">
+                <img
+                  src={card.imageUrl}
+                  height="1000"
+                  width="1000"
+                  className="Prd-card-image"
+                  alt="thumbnail"
+                />
+              </div>
+              <div className="Prd-card-item Prd-card-title">{card.title}</div>
+              <p className="Prd-card-item Prd-card-description">
+                {card.description}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
     </>
   );
 }
