@@ -58,13 +58,13 @@ const Contact = () => {
         </div>
         <div className="social-icons">
           <span>
-            <i class="ri-facebook-fill"></i>
+            <i className="ri-facebook-fill"></i>
           </span>{" "}
           <span>
-            <i class="ri-instagram-line"></i>
+            <i className="ri-instagram-line"></i>
           </span>{" "}
           <span>
-            <i class="ri-whatsapp-line"></i>
+            <i className="ri-whatsapp-line"></i>
           </span>
         </div>
         <div className="circle-big"></div>

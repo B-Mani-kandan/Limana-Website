@@ -218,9 +218,7 @@
 .contribute .contribute__hero-content {
   margin-left: auto;
   margin-right: auto;
-  /* max-width: 1000px; */
   width: calc(100% - 175px);
-  /* width: calc(100% - 40px); */
 }
 
 .contribute .contribute__title {
@@ -311,4 +309,10 @@
 
 .contribute .contribute__intro p:not(:first-child) {
   margin-top: 1em;
+}
+
+@media (max-width: 1000px) {
+  .contribute__examples {
+    display: none;
+  }
 }

@@ -195,3 +195,35 @@ h6 {
   margin-right: 1%;
   color: #0000ee;
 }
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .contribute__option {
+    padding: 20px;
+  }
+
+  .contribute__option-title {
+    font-size: 22px;
+  }
+
+  .contribute__option-description {
+    font-size: 14px;
+  }
+
+  .contribute__option-major-block {
+    padding: 15px;
+  }
+
+  .contribute__option-major-block h3 {
+    font-size: 18px;
+  }
+
+  .contribute__option-blocks {
+    flex-direction: column;
+  }
+
+  .contribute__option-minor-block {
+    width: 100%;
+    padding: 15px;
+  }
+}

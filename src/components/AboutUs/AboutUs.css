@@ -5,7 +5,7 @@
 .about-container {
   height: 116vh;
   width: 100%;
-  padding-left: 88px;
+  padding-left: 70px;
   margin-top: 76px;
   display: flex;
   align-items: center;
@@ -46,6 +46,8 @@
 
 .about-image img {
   width: 100%;
+  position: relative;
+  right: 7%;
   border: 6px solid #fff;
   max-width: 500px;
   transform: rotate(5deg);
