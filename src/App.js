@@ -5,9 +5,8 @@ import Home from "./components/Home/Home";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/ContactUs/Contact";
-// import ProductService from "./components/ProductService/ProductService";
 import ProductHome from "./components/ProductService/ProductHome/ProductHome";
-import Smt from "./components/ProductService/ProductPages/Smt";
+import SMT from "./components/ProductService/ProductPages/SMT";
 import FCT from "./components/ProductService/ProductPages/FCT";
 import TesterAssembly from "./components/ProductService/ProductPages/TesterAssembly";
 import Machines from "./components/ProductService/ProductPages/Machines";
@@ -30,7 +29,7 @@ function App() {
           <Route exact path="/AboutUs" element={<AboutUs />} />
           <Route exact path="/Contact-Us" element={<Contact />} />
           <Route exact path="/Product-Service" element={<ProductHome />} />
-          <Route exact path="/SMT-Fixtures" element={<Smt />} />
+          <Route exact path="/SMT-Fixtures" element={<SMT />} />
           <Route exact path="/FCT-Fixtures" element={<FCT />} />
           <Route exact path="/TesterAssembly" element={<TesterAssembly />} />
           <Route exact path="/Machines" element={<Machines />} />

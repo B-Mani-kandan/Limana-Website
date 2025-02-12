@@ -3,17 +3,17 @@
   font-weight: bold;
   color: #004449;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 70px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .CustSays {
-  background-image: url("../../../assets/prefooter-bg.jpg");
+  background-image: url("../../../assets/COMMON/prefooter-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 40px 1%;
+  padding: 30px 1%;
   margin-top: 2%;
   display: flex;
   justify-content: center;
@@ -78,6 +78,21 @@
 }
 .client-name {
   margin-top: 12px;
+}
+.client-company {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 2%;
+  font-weight: 500;
+}
+.client-company::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  border-bottom: 1.5px solid #000;
+  margin-right: 10px;
 }
 
 @media (max-width: 1024px) {

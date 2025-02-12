@@ -13,46 +13,41 @@ import CustLogo5 from "../../../assets/CLIENTLOGO/CLIENT2-Logo.webp";
 const testimonials = [
   {
     id: 1,
-    name: "Charles Douglas",
-    company: "Charles Douglas Solicitors LLP",
+    company: "CYIENT DLM Ltd",
     review:
-      "Charles Douglas Solicitors LLP have been using Lumina Technologies for a number of years now and continue to be impressed...",
-    rating: 5,
+      "Limana Technologies Pvt Ltd delivers high-quality automation solutions with expertise in SMT tooling, system design, and integration. Their precision and reliability make them a valuable partner across industries. We highly recommend them for their technical excellence and commitment to quality.",
+    rating: 4,
     logo: `${CustLogo1}`,
   },
   {
     id: 2,
-    name: "Charles Douglas",
-    company: "Charles Douglas Solicitors LLP",
+    company: "Panasonic",
     review:
-      "Charles Douglas Solicitors LLP have been using Lumina Technologies for a number of years now and continue to be impressed...",
+      "Limana Technologies Pvt Ltd is a reliable partner in SMT tooling and automation solutions. Their expertise in system design and integration enhances efficiency and precision. We appreciate their technical excellence and commitment to quality.",
     rating: 5,
     logo: `${CustLogo2}`,
   },
   {
     id: 3,
-    name: "Charles Douglas",
-    company: "Charles Douglas Solicitors LLP",
+    company: "TATA ELECTRONICS",
     review:
-      "Charles Douglas Solicitors LLP have been using Lumina Technologies for a number of years now and continue to be impressed...",
+      "Limana Technologies Pvt Ltd is a trusted partner in SMT tooling and automation solutions. Their expertise in system design and integration enhances manufacturing efficiency and precision. We appreciate their technical excellence and commitment to quality.",
     rating: 5,
     logo: `${CustLogo3}`,
   },
   {
     id: 4,
-    name: "Charles Douglas",
-    company: "Charles Douglas Solicitors LLP",
+    company: "VELANKANI ELECTRONICS",
     review:
-      "Charles Douglas Solicitors LLP have been using Lumina Technologies for a number of years now and continue to be impressed...",
+      "Limana Technologies Pvt Ltd excels in SMT tooling and automation solutions, delivering precision and efficiency in manufacturing. Their expertise in system design and integration makes them a valuable partner. We appreciate their technical excellence and reliability",
     rating: 5,
     logo: `${CustLogo4}`,
   },
   {
     id: 5,
-    name: "Jane Doe",
-    company: "Tech Solutions Inc.",
+    company: "PEGATRON",
     review:
-      "Tech Solutions Inc. has benefited greatly from Lumina Technologies' expertise and professionalism...",
+      "Limana Technologies Pvt Ltd is a trusted provider of SMT tooling and automation solutions, ensuring precision and efficiency in manufacturing. Their expertise in system design and integration makes them a valuable partner. We highly appreciate their technical excellence and commitment to quality.",
     rating: 4,
     logo: `${CustLogo5}`,
   },
@@ -78,7 +73,6 @@ const ClientDetails = () => {
           {testimonials.map((testimonial) => (
             <SwiperSlide key={testimonial.id} className="testimonial-slide">
               <div className="testimonial-card">
-                {/* Left Side - Client Details */}
                 <div className="testimonial-left">
                   <img
                     src={testimonial.logo}
@@ -86,7 +80,6 @@ const ClientDetails = () => {
                     className="client-logo"
                   />
                 </div>
-                {/* Right Side - Review & Stars */}
                 <div className="testimonial-right">
                   <div className="testimonial-rating">
                     {Array.from({ length: testimonial.rating }, (_, index) => (
@@ -96,7 +89,6 @@ const ClientDetails = () => {
                     ))}
                   </div>
                   <p className="testimonial-text">{testimonial.review}</p>
-                  <p className="client-name">{testimonial.name}</p>
                   <p className="client-company">{testimonial.company}</p>
                 </div>
               </div>

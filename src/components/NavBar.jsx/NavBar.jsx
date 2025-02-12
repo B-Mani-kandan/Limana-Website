@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./NavBar.css";
 import "remixicon/fonts/remixicon.css";
-import Logo from "../../assets/Logo_Limana.webp";
+import Logo from "../../assets/COMMON/Logo_Limana.webp";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {

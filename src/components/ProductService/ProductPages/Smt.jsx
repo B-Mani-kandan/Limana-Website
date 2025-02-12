@@ -7,7 +7,7 @@ import HOLDER_3 from "../../../assets/SMTCARRIER/HOLDER_3.webp";
 import IMITATING from "../../../assets/SMTCARRIER/IMITATING.webp";
 import MANUALFIXTURE from "../../../assets/SMTCARRIER/MANUALFIXTURE.webp";
 
-const Smt = () => {
+const SMT = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -88,4 +88,4 @@ const Smt = () => {
   );
 };
 
-export default Smt;
+export default SMT;

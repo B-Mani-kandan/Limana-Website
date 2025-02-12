@@ -1,8 +1,8 @@
 import React from "react";
 import "./AboutUs.css";
-import Image from "../../assets/cta-wave-white.webp";
-import CompanyImg from "../../assets/AboutImg-1.webp";
-import CompanyImgs from "../../assets/AboutImg-2.webp";
+import Image from "../../assets/COMMON/cta-wave-white.webp";
+import CompanyImg from "../../assets/COMMON/AboutImg-1.webp";
+import CompanyImgs from "../../assets/COMMON/AboutImg-2.webp";
 
 const AboutUs = () => {
   return (

@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import "../Home/Home.css";
-import HomeFac1 from "../../assets/HomeFac-1.webp";
-import HomeFac2 from "../../assets/HomeFac-2.webp";
-import HomeFac3 from "../../assets/HomeFac-3.webp";
-import HomeFac4 from "../../assets/HomeFac-4.webp";
-import HomeFac5 from "../../assets/HomeFac-5.webp";
+import HomeFac1 from "../../assets/HOMEIMG/HomeFac-1.webp";
+import HomeFac2 from "../../assets/HOMEIMG/HomeFac-2.webp";
+import HomeFac3 from "../../assets/HOMEIMG/HomeFac-3.webp";
+import HomeFac4 from "../../assets/HOMEIMG/HomeFac-4.webp";
+import HomeFac5 from "../../assets/HOMEIMG/HomeFac-5.webp";
 import Product from "./Product/Product";
 import AboutUs from "../AboutUs/AboutUs";
 import { Link } from "react-scroll";

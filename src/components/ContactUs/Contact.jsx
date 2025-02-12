@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../ContactUs/Contact.css";
-import ButtonPointer from "../../assets/button-pointing.png";
+import ButtonPointer from "../../assets/COMMON/button-pointing.png";
 import { ToastContainer, toast } from "react-toastify";
 const Contact = () => {
   useEffect(() => {
