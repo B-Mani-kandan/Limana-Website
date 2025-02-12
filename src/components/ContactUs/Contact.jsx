@@ -51,10 +51,10 @@ const Contact = () => {
           <i className="ri-mail-send-line"></i> anandk@limanatech.com
         </div>
         <div className="info-item">
-          <i className="ri-map-pin-line"></i> No-7/92,10th Street
-          Poongavanapuram,Kaladipet,Thiruvottiyur,
+          <i className="ri-map-pin-line"></i>
+          No-7/92, 10th Street Poongavanapuram, Kaladipet, Thiruvottiyur,
           <br />
-          Chennai - 600019,TamilNadu,India.
+          Chennai - 600019, TamilNadu, India.
         </div>
         <div className="socials-icons">
           <span>

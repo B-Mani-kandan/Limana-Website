@@ -99,7 +99,7 @@ textarea {
   .contact-container {
     flex-direction: column;
     width: 90%;
-    margin: 5% auto;
+    margin: 8% auto;
     gap: 10px;
     padding: 20px;
     box-shadow: none;
@@ -154,5 +154,8 @@ textarea {
 
   .pointing-img img {
     width: 60px;
+  }
+  .contact-p {
+    font-size: 13px;
   }
 }
