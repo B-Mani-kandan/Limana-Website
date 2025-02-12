@@ -19,9 +19,9 @@ const Footer = () => {
           <div className="footer-sections">
             <div className="footer-group">
               <h3 className="footer-title">Quick Link</h3>
-              <a href="/" className="footer-link">
+              <RouterLink to="/Contact-Us" className="footer-link">
                 Home
-              </a>
+              </RouterLink>
               <ScrollLink
                 to="About-us"
                 smooth={true}
@@ -42,44 +42,43 @@ const Footer = () => {
 
             <div className="footer-group">
               <h3 className="footer-title">Product & Services</h3>
-              <a href="/SMT-Fixtures" className="footer-link">
+              <RouterLink to="/SMT-Fixtures" className="footer-link">
                 SMT fixtures & carriers
-              </a>
-              <a href="/FCT-Fixtures" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/FCT-Fixtures" className="footer-link">
                 Fct fixtures
-              </a>
-              <a href="/TesterAssembly" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/TesterAssembly" className="footer-link">
                 Tester & Assembly Machines
-              </a>
-              <a href="/Machines" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/Machines" className="footer-link">
                 Machines
-              </a>
-              <a href="/ESD-Consumables" className="footer-link">
-                Esd Consumables
-              </a>
-              <a href="/Electronic-Assembly" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/ESD-Consumables" className="footer-link">
+                ESD Consumables
+              </RouterLink>
+              <RouterLink to="/Electronic-Assembly" className="footer-link">
                 Electronic assembly Equipment
-              </a>
-              <a href="/FUJI-MounterSpares" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/FUJI-MounterSpares" className="footer-link">
                 Fuji Mounter Spares
-              </a>
-              <a href="/ASM-MounterSpares" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/ASM-MounterSpares" className="footer-link">
                 Asm mounter spares
-              </a>
-              <a href="/Panasonic-MounterSpares" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/Panasonic-MounterSpares" className="footer-link">
                 Panasonic mounter spares
-              </a>
-              <a href="/AI-SpareParts" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/AI-SpareParts" className="footer-link">
                 Ai spare parts
-              </a>
-              <a href="/Cleaning-Solutions" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/Cleaning-Solutions" className="footer-link">
                 Cleaning Solutions
-              </a>
-              <a href="/Cleaning-Machines" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/Cleaning-Machines" className="footer-link">
                 Cleaning Machines
-              </a>
+              </RouterLink>
             </div>
-
             <div className="footer-group">
               <h3 className="footer-title">Support</h3>
               <a href="/" className="footer-link">

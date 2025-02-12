@@ -42,19 +42,17 @@ const Product = () => {
                 We offer solutions designed to meet your needs and enhance your
                 success. Explore how we can help you achieve your goals.
               </p>
-              <Link to="/Product-Service">
-                <a className="contribute__c2a" href="/">
-                  <div className="contribute__c2a-contents">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      className="contribute__c2a-icon"
-                    >
-                      <path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" />
-                    </svg>
-                    <span className="contribute__c2a-label">View More</span>
-                  </div>
-                </a>
+              <Link to="/Product-Service" className="contribute__c2a">
+                <div className="contribute__c2a-contents">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    className="contribute__c2a-icon"
+                  >
+                    <path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" />
+                  </svg>
+                  <span className="contribute__c2a-label">View More</span>
+                </div>
               </Link>
             </div>
             <div className="contribute__option-minor-blocks">

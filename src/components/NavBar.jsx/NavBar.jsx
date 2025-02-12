@@ -47,11 +47,7 @@ const NavBar = () => {
                 Home
               </Link>
             </li>
-            {/* <Dropdown
-              title="Assistance"
-              items={discoverItems}
-              closeMenu={closeMenu}
-            /> */}
+
             <li>
               <Link
                 to="/Product-Service"
@@ -61,115 +57,17 @@ const NavBar = () => {
                 Product & Services
               </Link>
             </li>
-            {/* <Dropdown title="Menu" items={companyItems} closeMenu={closeMenu} /> */}
 
             <li>
               <Link to="/Contact-Us" className="nav__link" onClick={closeMenu}>
                 Contact
               </Link>
             </li>
-
-            {/* <li className="last-li">
-              <a
-                className="btn-Home"
-                href="http://client.airsteamlogistics.com/"
-              >
-                Client Login
-              </a>
-            </li> */}
           </ul>
         </div>
       </nav>
     </header>
   );
 };
-
-// const Dropdown = ({ title, items, closeMenu }) => {
-//   const [showDropdown, setShowDropdown] = useState(false);
-
-//   useEffect(() => {
-//     const mediaQuery = window.matchMedia("(min-width: 1118px)");
-//     const handleMediaChange = (event) => {
-//       if (event.matches) {
-//         setShowDropdown(false);
-//       }
-//     };
-//     mediaQuery.addListener(handleMediaChange);
-//     return () => mediaQuery.removeListener(handleMediaChange);
-//   }, []);
-
-//   return (
-//     <li
-//       className="dropdown__item"
-//       onMouseEnter={() => window.innerWidth >= 1118 && setShowDropdown(true)}
-//       onMouseLeave={() => window.innerWidth >= 1118 && setShowDropdown(false)}
-//     >
-//       <div
-//         className="nav__link dropdown__button"
-//         onClick={() =>
-//           window.innerWidth < 1118 && setShowDropdown(!showDropdown)
-//         }
-//       >
-//         {title}{" "}
-//         <i
-//           className={`ri-arrow-down-s-line dropdown__arrow ${
-//             showDropdown ? "rotate" : ""
-//           }`}
-//         ></i>
-//       </div>
-//       <div
-//         className={`dropdown__container ${showDropdown ? "show-dropdown" : ""}`}
-//       >
-//         <div className="dropdown__content">
-//           {items.map((group, index) => (
-//             <div className="dropdown__group" key={index}>
-//               <ul className="dropdown__list">
-//                 {group.links.map((link, idx) => (
-//                   <li key={idx}>
-//                     <Link
-//                       to={link.href}
-//                       className="dropdown__link"
-//                       onClick={closeMenu}
-//                     >
-//                       {link.label}
-//                     </Link>
-//                   </li>
-//                 ))}
-//               </ul>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </li>
-//   );
-// };
-
-// const discoverItems = [
-//   {
-//     links: [
-//       { href: "/Sea-Frieght", label: "Sea Freight" },
-//       { href: "/Air-Frieght", label: "Air Freight" },
-//       { href: "/WareHousing", label: "Warehousing" },
-//       { href: "/Labelling", label: "Labelling" },
-//       { href: "/DG-Shipping", label: "DG Shipping" },
-//       { href: "/Customs-Clearence", label: "Customs Clearance" },
-//     ],
-//   },
-// ];
-
-// const companyItems = [
-//   {
-//     links: [
-//       { href: "/", label: "Home" },
-//       { href: "/OurStory", label: "About us" },
-//       { href: "/Sea-Frieght", label: "Sea Freight" },
-//       { href: "/Air-Frieght", label: "Air Freight" },
-//       { href: "/WareHousing", label: "Warehousing" },
-//       { href: "/Labelling", label: "Labelling" },
-//       { href: "/Custom-Clearence", label: "Customs Clearance" },
-//       { href: "/ContactUs", label: "Contact Us" },
-//     ],
-//   },
-// ];
 
 export default NavBar;
