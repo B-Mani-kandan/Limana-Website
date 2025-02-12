@@ -95,7 +95,6 @@ textarea {
   color: red;
 }
 
-/* Mobile View */
 @media (max-width: 768px) {
   .contact-container {
     flex-direction: column;
@@ -107,6 +106,7 @@ textarea {
   }
 
   .contact-info {
+    margin-top: 7%;
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -118,7 +118,7 @@ textarea {
     display: none;
   }
 
-  .social-icons {
+  .socials-icons {
     display: flex;
     justify-content: center;
     gap: 10px;

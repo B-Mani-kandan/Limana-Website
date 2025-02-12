@@ -45,9 +45,7 @@
   background-color: #4338ca;
 }
 
-/* Right Side - Image Grid */
 .prd-home-right {
-  /* flex: 1; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,4 +62,84 @@
   height: 240px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+  .prd-home-wrapper {
+    flex-direction: column;
+    padding: 3rem 3rem;
+  }
+
+  .prd-home-left {
+    max-width: 100%;
+    margin-top: 25px;
+  }
+
+  .prd-home-title {
+    font-size: 2rem;
+  }
+
+  .prd-home-description {
+    font-size: 1rem;
+  }
+
+  .prd-home-button {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .prd-home-right {
+    display: none;
+  }
+
+  .prd-home-image-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+
+  .prd-home-image {
+    width: 140px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .prd-home-wrapper {
+    padding: 2rem 2rem;
+  }
+
+  .prd-home-title {
+    font-size: 1.8rem;
+  }
+
+  .prd-home-description {
+    font-size: 0.9rem;
+  }
+
+  .prd-home-button {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.85rem;
+  }
+  .prd-home-right {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .prd-home-title {
+    font-size: 1.6rem;
+  }
+
+  .prd-home-description {
+    font-size: 0.85rem;
+  }
+
+  .prd-home-button {
+    font-size: 0.8rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .prd-home-right {
+    display: none;
+  }
 }

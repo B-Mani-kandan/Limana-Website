@@ -64,7 +64,7 @@ export default function CleaningMachineCard() {
   }, []);
   return (
     <>
-      <div style={{ marginTop: "9%", paddingLeft: "2rem" }}>
+      <div className="product-header">
         <h2 className="title">Product & Services</h2>
         <h2 className="product-list-title">CLEANING MACHINE</h2>
       </div>

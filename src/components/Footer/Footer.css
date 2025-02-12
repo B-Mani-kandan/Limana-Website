@@ -58,17 +58,6 @@
   height: 90px;
 }
 
-@media (max-width: 768px) {
-  .footer-sections {
-    flex-direction: column;
-  }
-
-  .footer-group {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
 .legalOuter {
   display: flex;
   justify-content: space-between;
@@ -110,6 +99,17 @@
   font-size: 35px;
   font-weight: 400;
   color: #004449;
+}
+
+@media (max-width: 768px) {
+  .footer-sections {
+    flex-direction: column;
+  }
+
+  .footer-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 768px) {

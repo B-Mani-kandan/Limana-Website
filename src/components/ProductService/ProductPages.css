@@ -78,6 +78,42 @@
   text-align: left;
 }
 
+@media (max-width: 768px) {
+  .product-container {
+    margin-top: 15%;
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 0.75rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.75rem;
+  }
+
+  .card-image img {
+    max-height: 250px;
+    object-fit: cover;
+  }
+}
+
 /* ESD */
 
 .ESD-container {
@@ -181,7 +217,6 @@
   max-width: 280px;
 }
 
-/* Responsive */
 @media (min-width: 1024px) {
   .grid-container {
     grid-template-columns: 1fr 1fr;
@@ -191,6 +226,105 @@
   .image-container {
     position: sticky;
     top: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ESD-container {
+    margin-top: 8%;
+    padding: 2rem;
+  }
+
+  .text-section,
+  .info-section {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .ESD-title {
+    font-size: 1.8rem;
+  }
+
+  .ESD-sub {
+    font-size: 1.2rem;
+  }
+
+  .ESD-description {
+    font-size: 0.95rem;
+    text-align: left;
+  }
+
+  .list {
+    padding: 0;
+  }
+
+  .Esd-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .esd-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .image-container {
+    margin: 1rem 0;
+  }
+
+  .image-container .ESD_image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0;
+  }
+  .ESD-container {
+    margin-top: 8%;
+    padding: 1.5rem;
+  }
+
+  .ESD-title {
+    font-size: 1.5rem;
+  }
+
+  .ESD-description {
+    font-size: 0.9rem;
+  }
+
+  .list-item {
+    font-size: 0.9rem;
+  }
+
+  .esd-image {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .ESD-container {
+    padding: 1rem;
+  }
+
+  .ESD-title {
+    font-size: 1.3rem;
+  }
+
+  .ESD-sub {
+    font-size: 1rem;
+  }
+
+  .ESD-description {
+    font-size: 0.85rem;
+  }
+
+  .esd-image {
+    max-width: 100%;
   }
 }
 
@@ -256,4 +390,53 @@
   width: 20px;
   height: 20px;
   color: #004449;
+}
+
+@media (max-width: 768px) {
+  .cleaningmach-container {
+    padding: 15px;
+  }
+
+  .cleaningmach-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cleaningmach-section.cleaningmach-reverse {
+    flex-direction: column;
+  }
+
+  .cleaningmach-content {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .cleaningmach-content h2 {
+    font-size: 20px;
+  }
+
+  .cleaningmach-content p {
+    font-size: 14px;
+  }
+
+  .cleaningmach-image {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .cleaningmach-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .ESD-description p {
+    font-size: 14px;
+    text-align: left;
+    left: 0;
+  }
+
+  .mch-icon {
+    width: 16px;
+    height: 16px;
+  }
 }

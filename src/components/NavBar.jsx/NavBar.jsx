@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./NavBar.css";
 import "remixicon/fonts/remixicon.css";
 import Logo from "../../assets/Logo_Limana.webp";
-// import IATA from "../../assets/IATA.png";
-
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -29,7 +27,6 @@ const NavBar = () => {
         <div className="nav__data">
           <Link to="/" className="nav__logo" onClick={closeMenu}>
             <img src={Logo} alt="logo" />
-            {/* <img src={IATA} style={{ width: "80px" }} alt="" /> */}
             <div className="outlined-text">Limana</div>
           </Link>
           <div

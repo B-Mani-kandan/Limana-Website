@@ -6,6 +6,7 @@ import PRDIMG_3 from "../../../assets/PRODUCTSERVICE_HEAD/Electronic.webp";
 import PRDIMG_4 from "../../../assets/PRODUCTSERVICE_HEAD/ASM.webp";
 import PRDIMG_5 from "../../../assets/PRODUCTSERVICE_HEAD/al.webp";
 import PRDIMG_6 from "../../../assets/PRODUCTSERVICE_HEAD/cleaning.webp";
+import { Link } from "react-scroll";
 export default function PrdHomeDetails() {
   return (
     <div className="prd-home-wrapper">
@@ -20,9 +21,16 @@ export default function PrdHomeDetails() {
           automation, and tooling clamps designed to enhance efficiency,
           precision, and scalability in manufacturing.
         </p>
-        <a href="#" className="prd-home-button">
+        <Link
+          to="cards-container"
+          smooth={true}
+          offset={-100}
+          duration={2000}
+          href="#explore"
+          className="prd-home-button"
+        >
           Explore Our Product
-        </a>
+        </Link>
       </div>
       <div className="prd-home-right">
         <div className="prd-home-image-grid">

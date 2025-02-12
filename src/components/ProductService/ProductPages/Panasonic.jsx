@@ -122,7 +122,7 @@ export default function Panasonic() {
   }, []);
   return (
     <>
-      <div style={{ marginTop: "9%", paddingLeft: "2rem" }}>
+      <div className="product-header">
         <h2 className="title">Product & Services</h2>
         <h2 className="product-list-title">PANASONIC MOUNTER SPARES</h2>
       </div>

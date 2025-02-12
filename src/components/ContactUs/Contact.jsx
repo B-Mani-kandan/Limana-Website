@@ -56,7 +56,7 @@ const Contact = () => {
           <br />
           Chennai - 600019,TamilNadu,India.
         </div>
-        <div className="social-icons">
+        <div className="socials-icons">
           <span>
             <i className="ri-facebook-fill"></i>
           </span>{" "}

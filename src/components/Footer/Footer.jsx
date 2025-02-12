@@ -1,4 +1,6 @@
 import React from "react";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import "./Footer.css";
 import CLientLogo from "./ClientLogo/CLientLogo";
 import HomeContact from "./HomeContact/HomeContact";
@@ -20,63 +22,74 @@ const Footer = () => {
               <a href="/" className="footer-link">
                 Home
               </a>
-              <a href="/" className="footer-link">
+              <ScrollLink
+                to="About-us"
+                smooth={true}
+                offset={-100}
+                duration={500}
+                href="#About"
+                className="footer-link"
+              >
                 About Us
-              </a>
-              <a href="/" className="footer-link">
+              </ScrollLink>
+              <RouterLink to="/Product-Service" className="footer-link">
                 Product & Services
-              </a>
-              <a href="/" className="footer-link">
+              </RouterLink>
+              <RouterLink to="/Contact-Us" className="footer-link">
                 Contact Us
-              </a>
+              </RouterLink>
             </div>
 
             <div className="footer-group">
               <h3 className="footer-title">Product & Services</h3>
-              <a href="/" className="footer-link">
+              <a href="/SMT-Fixtures" className="footer-link">
                 SMT fixtures & carriers
               </a>
-              <a href="/" className="footer-link">
+              <a href="/FCT-Fixtures" className="footer-link">
                 Fct fixtures
               </a>
-              <a href="/" className="footer-link">
+              <a href="/TesterAssembly" className="footer-link">
                 Tester & Assembly Machines
               </a>
-              <a href="/" className="footer-link">
+              <a href="/Machines" className="footer-link">
                 Machines
               </a>
-              <a href="/" className="footer-link">
+              <a href="/ESD-Consumables" className="footer-link">
                 Esd Consumables
               </a>
-              <a href="/" className="footer-link">
+              <a href="/Electronic-Assembly" className="footer-link">
                 Electronic assembly Equipment
               </a>
-              <a href="/" className="footer-link">
+              <a href="/FUJI-MounterSpares" className="footer-link">
                 Fuji Mounter Spares
               </a>
-              <a href="/scholarship" className="footer-link">
+              <a href="/ASM-MounterSpares" className="footer-link">
                 Asm mounter spares
               </a>
-              <a href="/" className="footer-link">
+              <a href="/Panasonic-MounterSpares" className="footer-link">
                 Panasonic mounter spares
               </a>
-              <a href="/advertise" className="footer-link">
+              <a href="/AI-SpareParts" className="footer-link">
                 Ai spare parts
+              </a>
+              <a href="/Cleaning-Solutions" className="footer-link">
+                Cleaning Solutions
+              </a>
+              <a href="/Cleaning-Machines" className="footer-link">
+                Cleaning Machines
               </a>
             </div>
 
-            {/* Support Section */}
             <div className="footer-group">
               <h3 className="footer-title">Support</h3>
               <a href="/" className="footer-link">
                 Help Center
               </a>
-              <a href="/" className="footer-link">
+              <RouterLink to="/Contact-Us" className="footer-link">
                 Contact Us
-              </a>
+              </RouterLink>
             </div>
 
-            {/* Social Media Section */}
             <div className="footer-group social-media">
               <h3 className="footer-title">Follow Us</h3>
               <div className="social-icons">

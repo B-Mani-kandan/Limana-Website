@@ -71,42 +71,78 @@ export default function ESDConsumables() {
                 <strong>ESD GLOVES</strong>
               </span>
             </li>
-            <img src={ESD_GLOVES} className="esd-image" alt="esd_gloves" />
+            <img
+              src={ESD_GLOVES}
+              width="400"
+              height="300"
+              className="esd-image"
+              alt="esd_gloves"
+            />
             <li className="list-item">
               <CubeTransparentIcon className="Esd-icon" />
               <span>
                 <strong>ESD WRIST STRAPS</strong>
               </span>
             </li>
-            <img src={ESD_STARPS} className="esd-image" alt="esd_straps" />
+            <img
+              src={ESD_STARPS}
+              width="400"
+              height="300"
+              className="esd-image"
+              alt="esd_straps"
+            />
             <li className="list-item">
               <CubeTransparentIcon className="Esd-icon" />
               <span>
                 <strong>ESD DISPOSAL</strong>
               </span>
             </li>
-            <img src={ESD_DISPOSAL} className="esd-image" alt="esd_disposal" />
+            <img
+              src={ESD_DISPOSAL}
+              width="400"
+              height="300"
+              className="esd-image"
+              alt="esd_disposal"
+            />
             <li className="list-item">
               <CubeTransparentIcon className="Esd-icon" />
               <span>
                 <strong>ESD PRODUCTS</strong>
               </span>
             </li>
-            <img src={ESD_PRODUCTS} className="esd-image" alt="esd_products" />
+            <img
+              src={ESD_PRODUCTS}
+              width="400"
+              height="300"
+              className="esd-image"
+              alt="esd_products"
+            />
             <li className="list-item">
               <CubeTransparentIcon className="Esd-icon" />
               <span>
                 <strong>ESD_BUDS</strong>
               </span>
             </li>
-            <img src={ESD_BUDS} className="esd-image" alt="esd_buds" />
+            <img
+              src={ESD_BUDS}
+              width="400"
+              height="300"
+              className="esd-image"
+              alt="esd_buds"
+            />
             <li className="list-item">
               <CubeTransparentIcon className="Esd-icon" />
               <span>
                 <strong>ESD PIN</strong>
               </span>
             </li>
-            <img src={ESD_PIN} className="esd-image" alt="esd_pin" />
+            <img
+              src={ESD_PIN}
+              width="400"
+              height="300"
+              className="esd-image"
+              alt="esd_pin"
+            />
           </ul>
         </div>
       </div>

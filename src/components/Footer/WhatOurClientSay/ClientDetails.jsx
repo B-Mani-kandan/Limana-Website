@@ -4,11 +4,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import CustLogo1 from "../../../assets/1-Logo.png";
-import CustLogo2 from "../../../assets/2-Logo.png";
-import CustLogo3 from "../../../assets/3-Logo.png";
-import CustLogo4 from "../../../assets/4-Logo.png";
-import CustLogo5 from "../../../assets/5-Logo.png";
+import CustLogo1 from "../../../assets/CLIENTLOGO/COLORCYNET.webp";
+import CustLogo2 from "../../../assets/CLIENTLOGO/COLORPANA.webp";
+import CustLogo3 from "../../../assets/CLIENTLOGO/COLORTATA.webp";
+import CustLogo4 from "../../../assets/CLIENTLOGO/COLORVELAKANI.webp";
+import CustLogo5 from "../../../assets/CLIENTLOGO/CLIENT2-Logo.webp";
 
 const testimonials = [
   {

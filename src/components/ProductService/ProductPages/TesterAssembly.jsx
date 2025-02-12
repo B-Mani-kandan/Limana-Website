@@ -41,7 +41,7 @@ export default function TesterAssembly() {
   }, []);
   return (
     <>
-      <div style={{ marginTop: "9%", paddingLeft: "2rem" }}>
+      <div className="product-header">
         <h2 className="title">Product & Services</h2>
         <h2 className="product-list-title">FCT FIXTURES</h2>
       </div>
