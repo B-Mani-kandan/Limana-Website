@@ -1,18 +1,57 @@
 .logo-carousel {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    overflow: hidden;
-    white-space: nowrap;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.carousel-logo {
+  flex: 0 0 auto;
+  width: 100px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media (hover: hover) {
+  .carousel-logo:hover {
+    transform: scale(1.1);
   }
-  
+}
+
+@media (max-width: 768px) {
+  .logo-carousel {
+    margin-top: 2%;
+    margin-bottom: 9%;
+  }
   .carousel-track {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center;
   }
-  
+
   .carousel-logo {
-    flex: 0 0 auto;
-    width: 100px;
-    margin-right: 20px;
+    width: 80px;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .carousel-track {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .logo-carousel {
+    margin-top: 2%;
+    margin-bottom: 9%;
+  }
+
+  .carousel-logo {
+    width: 70px;
+  }
+}

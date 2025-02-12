@@ -1,7 +1,5 @@
 .contribute {
   margin-top: 7%;
-}
-.contribute {
   text-align: left;
 }
 
@@ -111,22 +109,6 @@ h6 {
   margin-top: 22px;
 }
 
-.contribute__c2a {
-  background-image: linear-gradient(
-    to right,
-    rgb(224, 82, 160),
-    rgb(241, 92, 65)
-  );
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  display: inline-block;
-  font-size: 17px;
-  font-weight: 600;
-  border-radius: 3px;
-  padding: 14px 14px 13px;
-  transition: box-shadow 140ms;
-}
-
 .contribute .contribute__option-minor-blocks {
   align-items: flex-start;
   display: flex;
@@ -196,34 +178,89 @@ h6 {
   color: #0000ee;
 }
 
-/* Mobile View */
 @media (max-width: 768px) {
-  .contribute__option {
-    padding: 20px;
-  }
-
-  .contribute__option-title {
-    font-size: 22px;
-  }
-
-  .contribute__option-description {
-    font-size: 14px;
-  }
-
-  .contribute__option-major-block {
+  .contribute {
+    margin-top: 5%;
+    margin-top: 20%;
     padding: 15px;
   }
 
-  .contribute__option-major-block h3 {
-    font-size: 18px;
+  .contribute .contribute__option-label {
+    margin-top: 5%;
+    font-size: 14px;
+  }
+
+  .contribute .contribute__option-title {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .contribute .contribute__option-description {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 2.1;
   }
 
   .contribute__option-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contribute__option-major-block,
+  .contribute__option-minor-block {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .contribute .contribute__option-major-block h3,
+  .contribute .contribute__option-minor-block h3 {
+    font-size: 18px;
+  }
+
+  .contribute .contribute__option-major-block p,
+  .contribute .contribute__option-minor-block p {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .contribute__option-minor-blocks {
+    display: flex;
     flex-direction: column;
   }
 
   .contribute__option-minor-block {
-    width: 100%;
-    padding: 15px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contribute__option-minor-block svg {
+    height: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contribute {
+    padding: 10px;
+    margin-top: 20%;
+  }
+
+  .contribute .contribute__option-title {
+    font-size: 24px;
+  }
+
+  .contribute__option-description {
+    font-size: 13px;
+  }
+
+  .contribute .contribute__option-major-block p,
+  .contribute .contribute__option-minor-block p {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .contribute__c2a-contents {
+    padding: 7px 15px;
   }
 }

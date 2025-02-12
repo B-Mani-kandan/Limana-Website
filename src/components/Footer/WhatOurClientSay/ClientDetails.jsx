@@ -9,7 +9,6 @@ import CustLogo2 from "../../../assets/2-Logo.png";
 import CustLogo3 from "../../../assets/3-Logo.png";
 import CustLogo4 from "../../../assets/4-Logo.png";
 import CustLogo5 from "../../../assets/5-Logo.png";
-// import CustLogo6 from "../../../assets/6-Logo.png";
 
 const testimonials = [
   {
@@ -19,7 +18,7 @@ const testimonials = [
     review:
       "Charles Douglas Solicitors LLP have been using Lumina Technologies for a number of years now and continue to be impressed...",
     rating: 5,
-    logo: `${CustLogo1}`, // Replace with actual logo URL
+    logo: `${CustLogo1}`,
   },
   {
     id: 2,
@@ -28,7 +27,7 @@ const testimonials = [
     review:
       "Charles Douglas Solicitors LLP have been using Lumina Technologies for a number of years now and continue to be impressed...",
     rating: 5,
-    logo: `${CustLogo2}`, // Replace with actual logo URL
+    logo: `${CustLogo2}`,
   },
   {
     id: 3,
@@ -37,7 +36,7 @@ const testimonials = [
     review:
       "Charles Douglas Solicitors LLP have been using Lumina Technologies for a number of years now and continue to be impressed...",
     rating: 5,
-    logo: `${CustLogo3}`, // Replace with actual logo URL
+    logo: `${CustLogo3}`,
   },
   {
     id: 4,
@@ -46,7 +45,7 @@ const testimonials = [
     review:
       "Charles Douglas Solicitors LLP have been using Lumina Technologies for a number of years now and continue to be impressed...",
     rating: 5,
-    logo: `${CustLogo4}`, // Replace with actual logo URL
+    logo: `${CustLogo4}`,
   },
   {
     id: 5,
@@ -55,7 +54,7 @@ const testimonials = [
     review:
       "Tech Solutions Inc. has benefited greatly from Lumina Technologies' expertise and professionalism...",
     rating: 4,
-    logo: `${CustLogo5}`, // Replace with actual logo URL
+    logo: `${CustLogo5}`,
   },
 ];
 
@@ -67,9 +66,9 @@ const ClientDetails = () => {
         <Swiper
           pagination={{
             dynamicBullets: true,
-            clickable: true, // Makes bullets clickable
+            clickable: true,
           }}
-          modules={[Pagination, Autoplay]} // Corrected usage
+          modules={[Pagination, Autoplay]}
           autoplay={{
             delay: 5000,
             disableOnInteraction: false,

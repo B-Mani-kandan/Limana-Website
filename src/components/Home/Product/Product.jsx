@@ -13,7 +13,7 @@ const Product = () => {
             Explore Our Exclusive Products.
           </h2>
           <p className="contribute__option-description">
-            Limina is committed to providing customers with
+            Limana is committed to providing customers with
             <span className="highlights">
               SMT Fixtures, carriers, Spares & Consumables, semiconductor
               sealing tooling and Special Purpose automation solutions.
