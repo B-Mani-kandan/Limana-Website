@@ -3,7 +3,7 @@ import "../ImageSlider/ImageSlider.css";
 import Image1 from "../../../assets/IMAGE_CAROSEL/Electronic.webp";
 import Image2 from "../../../assets/IMAGE_CAROSEL/ESD.webp";
 import Image3 from "../../../assets/IMAGE_CAROSEL/Machines.webp";
-import Image4 from "../../../assets/IMAGE_CAROSEL/PANASONIC.webp";
+import Image4 from "../../../assets/IMAGE_CAROSEL/cleaning1.webp";
 import { Link } from "react-router-dom";
 
 const ImageSlider = () => {
@@ -35,9 +35,9 @@ const ImageSlider = () => {
     {
       id: 4,
       img: Image4,
-      title: "PANASONIC MOUNTER",
-      topic: "SPARES",
-      desc: "High-quality parts for improved mounter performance.",
+      title: "CLEANING ",
+      topic: "MACHINES",
+      desc: "Advanced machines for precise and effective electronic part cleaning.",
       link: "/Panasonic-MounterSpares",
     },
   ]);
