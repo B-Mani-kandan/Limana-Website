@@ -19,8 +19,8 @@ const AboutUs = () => {
               India.
             </p>
             <p>
-              We specialize in SMT carrier semiconductor sealing tooling and
-              custom automation solutions.
+              We specialize in SMT Spares, Consumables & Custom automation
+              solution.
             </p>
             <p>
               Our offerings include assembly lines, packing lines, and tooling

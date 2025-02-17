@@ -2,18 +2,20 @@ import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
 import "./Footer.css";
-import CLientLogo from "./ClientLogo/CLientLogo";
+// import CLientLogo from "./ClientLogo/CLientLogo";
 import HomeContact from "./HomeContact/HomeContact";
 import { useLocation } from "react-router-dom";
-import ClientDetails from "./WhatOurClientSay/ClientDetails";
+// import ClientDetails from "./WhatOurClientSay/ClientDetails";
+import ImageSlider from "./ImageSlider/ImageSlider";
 
 const Footer = () => {
   const location = useLocation();
   return (
     <>
-      <ClientDetails />
+      {/* <ClientDetails /> */}
+      <ImageSlider />
       {location.pathname !== "/Contact-Us" && <HomeContact />}
-      <CLientLogo />
+      {/* <CLientLogo /> */}
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-sections">

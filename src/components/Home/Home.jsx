@@ -27,9 +27,9 @@ const Home = () => {
               Innovation at Work
             </h1>
             <p className="contribute__subtitle" balance-text="" style={{}}>
-              semiconductor sealing tooling and
+              Revolutionized electronics manufacturing
               <br data-owner="balance-text" aria-hidden="true" />
-              custom automation solutions.
+              and custom automation solution
             </p>
             <Link
               to="contribute__intro"
@@ -169,8 +169,8 @@ const Home = () => {
             <strong>Your Trusted Partner in Automation Solutions.</strong>
           </p>
           <p>
-            We specialize in SMT carrier semiconductor sealing tooling and
-            custom automation solutions.
+            We specialize in SMT Spares, Consumables & Custom automation
+            solution.
           </p>
           <p>
             Our offerings include assembly lines, packing lines, and tooling

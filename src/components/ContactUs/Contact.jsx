@@ -45,7 +45,7 @@ const Contact = () => {
         <h2>Contact Information</h2>
         <p>Say something to start a live chat!</p>
         <div style={{ marginTop: "4%" }} className="info-item">
-          <i className="ri-phone-fill"></i> +91-9840014479,+91-8072031913
+          <i className="ri-phone-fill"></i> +91-9840014479,+91-9360001503
         </div>
         <div className="info-item">
           <i className="ri-mail-send-line"></i> anandk@limanatech.com

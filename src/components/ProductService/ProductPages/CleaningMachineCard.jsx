@@ -66,7 +66,9 @@ export default function CleaningMachineCard() {
     <>
       <div className="product-header">
         <h2 className="title">Product & Services</h2>
-        <h2 className="product-list-title">CLEANING MACHINE</h2>
+        <h2 className="product-list-title">
+          CLEANING SOLVENTS & CLEANING MACHINES
+        </h2>
       </div>
       <div className="Prd-cards-container">
         {cardData.map((card) => (
