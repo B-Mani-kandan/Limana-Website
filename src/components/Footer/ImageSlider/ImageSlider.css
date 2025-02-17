@@ -68,9 +68,9 @@
   bottom: 50px;
   left: 50%;
   width: max-content;
-  z-index: 100;
   display: flex;
   gap: 20px;
+  z-index: 1;
 }
 .thumbnail .item {
   width: 150px;
