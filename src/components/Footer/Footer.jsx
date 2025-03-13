@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <>
       {/* <ClientDetails /> */}
-      <ImageSlider />
+      {location.pathname !== "/Contact-Us" && <ImageSlider />}
       {location.pathname !== "/Contact-Us" && <HomeContact />}
       {/* <CLientLogo /> */}
       <footer className="footer">
