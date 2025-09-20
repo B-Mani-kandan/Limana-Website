@@ -12,7 +12,7 @@ const Footer = () => {
   const location = useLocation();
   return (
     <>
-      <ClientDetails />
+      {/* <ClientDetails /> */}
       {location.pathname !== "/Contact-Us" && <ImageSlider />}
       {location.pathname !== "/Contact-Us" && <HomeContact />}
       {/* <CLientLogo /> */}
