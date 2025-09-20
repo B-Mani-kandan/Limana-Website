@@ -59,22 +59,21 @@ const cardData = [
   },
   {
     id: 7,
-    title: "FUJI Mounter Spares",
-    description:
-      "FUJI Mounter Spares provide Quality replacement parts for FUJI.",
+    title: " Mounter Spares",
+    description: " Mounter Spares provide Quality replacement parts.",
     imageUrl: `${FUJI}`,
     link: "/FUJI-MounterSpares",
   },
   {
     id: 8,
-    title: "ASM Mounter Spares",
-    description: "High-performance replacement parts for ASM mounters.",
+    title: " Mounter Spares",
+    description: "High-performance replacement parts for mounters.",
     imageUrl: `${ASM}`,
     link: "/ASM-MounterSpares",
   },
   {
     id: 9,
-    title: "Panasonic Mounter Spares",
+    title: " Mounter Spares",
     description: "High-quality parts for improved mounter performance.",
     imageUrl: `${PANASONIC}`,
     link: "/Panasonic-MounterSpares",

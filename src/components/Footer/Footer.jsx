@@ -5,14 +5,14 @@ import "./Footer.css";
 // import CLientLogo from "./ClientLogo/CLientLogo";
 import HomeContact from "./HomeContact/HomeContact";
 import { useLocation } from "react-router-dom";
-// import ClientDetails from "./WhatOurClientSay/ClientDetails";
+import ClientDetails from "./WhatOurClientSay/ClientDetails";
 import ImageSlider from "./ImageSlider/ImageSlider";
 
 const Footer = () => {
   const location = useLocation();
   return (
     <>
-      {/* <ClientDetails /> */}
+      <ClientDetails />
       {location.pathname !== "/Contact-Us" && <ImageSlider />}
       {location.pathname !== "/Contact-Us" && <HomeContact />}
       {/* <CLientLogo /> */}

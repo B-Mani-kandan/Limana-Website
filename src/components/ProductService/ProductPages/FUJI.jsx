@@ -25,7 +25,7 @@ const cardData = [
   },
   {
     id: 2,
-    title: "FUJI NXT 12mm FEEDER KT12C",
+    title: "NXT 12mm FEEDER KT12C",
     description: "A precise automatic component feeder for SMT assembly.",
     imageUrl: `${NXT12}`,
   },
@@ -110,7 +110,7 @@ const cardData = [
   },
   {
     id: 16,
-    title: "FUJI VACUUM GENERATOR H10070",
+    title: "VACUUM GENERATOR H10070",
     description: "Is a high-efficiency vacuum generator for industrial use.",
     imageUrl: `${FUJIVACUUM}`,
   },
@@ -124,7 +124,7 @@ export default function FUJI() {
     <>
       <div className="product-header">
         <h2 className="title">Product & Services</h2>
-        <h2 className="product-list-title">FUJI MOUNTER SPARES</h2>
+        <h2 className="product-list-title"> MOUNTER SPARES</h2>
       </div>
       <div className="Prd-cards-container">
         {cardData.map((card) => (

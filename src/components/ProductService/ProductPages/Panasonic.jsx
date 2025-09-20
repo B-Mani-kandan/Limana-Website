@@ -124,7 +124,7 @@ export default function Panasonic() {
     <>
       <div className="product-header">
         <h2 className="title">Product & Services</h2>
-        <h2 className="product-list-title">PANASONIC MOUNTER SPARES</h2>
+        <h2 className="product-list-title"> MOUNTER SPARES</h2>
       </div>
       <div className="Prd-cards-container">
         {cardData.map((card) => (

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "../Card.css";
 import MMFEEDER from "../../../assets/ASM/MMFEEDER.webp";
 import SIPLACE_XFEEDER from "../../../assets/ASM/SIPLACE_XFEEDER.webp";
@@ -127,7 +127,7 @@ export default function ASM() {
     <>
       <div className="product-header">
         <h2 className="title">Product & Services</h2>
-        <h2 className="product-list-title">ASM MOUNTER SPARES</h2>
+        <h2 className="product-list-title"> MOUNTER SPARES</h2>
       </div>
       <div className="Prd-cards-container">
         {cardData.map((card) => (
